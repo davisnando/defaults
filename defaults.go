@@ -38,7 +38,7 @@ func Set(ptr interface{}) error {
 			}
 		}
 	}
-	callSetter(ptr)
+	callSetter(&ptr)
 	return nil
 }
 
